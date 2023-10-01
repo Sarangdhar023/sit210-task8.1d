@@ -21,18 +21,18 @@ def light():
  
 def  main():
     while True:
-        lux = light()
-        print (lux)
+        Calc_Light = light()
+        print (Calc_Light)
 
-        if(lux >= 1200):
+        if(Calc_Light >= 1200):
             print("Too bright")
-        elif(lux >= 700 and lux < 1199):
+        elif(Calc_Light >= 700 and Calc_Light < 1199):
             print("Bright")
-        elif(lux >= 300 and lux < 699):
+        elif(Calc_Light >= 300 and Calc_Light < 699):
             print("Medium")    
-        elif(lux < 50 and lux > 299):
+        elif(Calc_Light < 50 and Calc_Light > 299):
             print("Dark")
-        elif(lux < 49):
+        elif(Calc_Light < 49):
             print("Two Dark")
         
         time.sleep(0.5)
