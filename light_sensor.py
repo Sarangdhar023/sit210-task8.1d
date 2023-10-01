@@ -24,16 +24,16 @@ def  main():
         Calc_Light = light()
         print (Calc_Light)
 
-        if(Calc_Light >= 1200):
+        if(Calc_Light >= 1400):
             print("Too bright")
-        elif(Calc_Light >= 700 and Calc_Light < 1199):
+        elif(Calc_Light >= 1000 and Calc_Light < 1400):
             print("Bright")
-        elif(Calc_Light >= 300 and Calc_Light < 699):
+        elif(Calc_Light >= 500 and Calc_Light < 999):
             print("Medium")    
-        elif(Calc_Light < 50 and Calc_Light > 299):
+        elif(Calc_Light >= 100 and Calc_Light < 499):
             print("Dark")
-        elif(Calc_Light < 49):
+        elif(Calc_Light < 99):
             print("Too Dark")
         
-        time.sleep(0.5)
+        time.sleep(0.7)
 main ()
