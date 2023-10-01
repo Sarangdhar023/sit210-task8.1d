@@ -33,7 +33,7 @@ def  main():
         elif(Calc_Light < 50 and Calc_Light > 299):
             print("Dark")
         elif(Calc_Light < 49):
-            print("Two Dark")
+            print("Too Dark")
         
         time.sleep(0.5)
 main ()
